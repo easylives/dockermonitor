@@ -8,8 +8,7 @@ docker status, log alert,Rev dingtalk alert,set silence duration
 ```
 -f  how many mins for silence (default: "1")
 
--k  keyworks for identify split by ',' 
-(default: "retrying,abort")
+-k  keyworks for identify split by ',' (default: "retrying,abort")
 
 -p  prefix (default: "l2")
 
