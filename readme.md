@@ -3,9 +3,9 @@
 
 docker status, log alert,Rev dingtalk alert,set silence duration
 ## Usage
-```
-./dockermonitor [OPTION...]
 
+./dockermonitor [OPTION...]
+```
 -f  how many mins for silence (default: "1")
 
 -k  keyworks for identify split by ',' 
