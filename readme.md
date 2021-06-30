@@ -1,9 +1,9 @@
 ## DockerMonitor
 监控docker状态，日志关键字报警，钉钉报警，设置静默时间
 
-monitor docker status, log alert,dingtalk alert,set silence duration
+docker status, log alert,Rev dingtalk alert,set silence duration
 ## Usage
-
+```
 ./dockermonitor [OPTION...]
 
 -f  how many mins for silence (default: "1")
@@ -14,8 +14,9 @@ monitor docker status, log alert,dingtalk alert,set silence duration
 -p  prefix (default: "l2")
 
 -y  locate db.yaml (default: "./db.yaml")
-   --help, -h  show help (default: false)
 
+-h  show help (default: false)
+```
 
 ## Config
 **main.go**
