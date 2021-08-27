@@ -1,7 +1,7 @@
 ## DockerMonitor
-监控docker状态，日志关键字报警，钉钉报警，设置静默时间
+根据docker日志关键字钉钉报警，设置静默时间
 
-docker status, log alert,Rev dingtalk alert,set silence duration
+docker log alert,Rev dingtalk alert,set silence duration
 ## Usage
 
 ./dockermonitor [OPTION...]
